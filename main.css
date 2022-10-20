@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 50%;
+  margin: auto;
+}
+
+.head {
+  height: 115px;
+  background-color: white;
+  margin-top: 20px;
+}
+.head img {
+  margin-top: 20px;
+}
+.head-right {
+  float: right;
+}
+.head-right ul li,
+a i {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  margin: 15px 0px 15px 27px;
+}
+.head-right ul.social > li a i:hover {
+  border-bottom: 5px solid black;
+  text-decoration: underline black;
+  margin-bottom: 10px;
+}
+.head-right button {
+  padding: 3px;
+  width: 20%;
+  color: white;
+  background-color: black;
+}
+.head-right button:hover {
+  background-color: white;
+  color: black;
+  visibility: visible;
+}
+.head-right input[type="text"] {
+  padding-left: 2px;
+  font-size: 13px;
+  border: 1px solid black;
+  background: #f1f1f1;
+  width: 70%;
+  height: 25px;
+  margin-right: -5px;
+  margin-left: 22px;
+}
+hr {
+  background: black;
+  color: black;
+  margin: auto;
+  height: 2px;
+  border-style: dashed;
+  margin-bottom: 3px;
+}
+.nav {
+  height: 40px;
+  line-height: 35px;
+  background-color: black;
+}
+.nav ul > li,
+a {
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 5px;
+  color: white;
+  font-weight: 900;
+}
+.mainphoto img {
+  margin-top: 20px;
+  width: 100%;
+}
+article {
+  margin-top: 25px;
+}
+.row div {
+  float: left;
+}
+.col {
+  width: 32%;
+  height: 449.953px;
+}
+figcaption {
+  background-color: rgb(146, 20, 20);
+  position: relative;
+  top: -44px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  text-align: justify;
+  color: white;
+  font-weight: 800;
+}
+.fig2 {
+  background-color: rgb(141, 38, 38, 0.6);
+}
+figure img {
+  width: 100%;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.pict {
+  height: 220px;
+}
+.pict img {
+  width: 100%;
+}
